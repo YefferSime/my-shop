@@ -86,7 +86,7 @@ const Headers = () => {
                         <div className='md-lg:w-full w-3/12 md-lg:pt-4'>
                             <div className='flex justify-between items-center'>
                                 <Link to='/'>
-                                    <img src="http://localhost:3000/images/logo.png" alt="logo" />
+                                    <img src="images/logo.png" alt="logo" />
                                 </Link>
                                 <div className='justify-center items-center w-[30px] h-[30px] bg-white text-slate-600 border border-slate-600 rounded-sm cursor-pointer lg:hidden md-lg:flex xl:hidden hidden' onClick={() => setShowShidebar(false)}>
                                     <span><FaList /></span>
